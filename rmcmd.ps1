@@ -4,7 +4,7 @@ echo $lineNum
 $file_data = Get-Content .\ip.txt 
 $commands = Get-Content .\commands.txt |% {$_-replace "`r", "";"`n "}
 
-$line = 0
+$line = 1
 
 While ($line -lt $lineNum)
      {

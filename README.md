@@ -9,9 +9,9 @@ but by design, you have to run each command for each linux host. So to automate 
 but before that lets first talk about setting up the folder for running plink-helper. 
 
 1. Create a folder. or cd into the folder where you have the plink.exe file
-2. Download and copy rmcmd.ps1 from this repository.
-3. Create a file called command.txt in the same folder and paste all your commands (that needs to be executed on the Linux hosts) there.
-4. Create a file called ip.txt and paste the IP of FQDN of all the Linux hosts where you want to run the commands on
+2. Download and copy [rmcmd.ps1] from this repository.
+3. Create a file called [command.txt] in the same folder and paste all your commands (that needs to be executed on the Linux hosts) there.
+4. Create a file called [ip.txt] and paste the IP of FQDN of all the Linux hosts where you want to run the commands on
 
 Now you are all set to run the command. simply open powershell and execute
 

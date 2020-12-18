@@ -9,9 +9,9 @@ $line = 0
 While ($line -lt $lineNum)
      {
       if($SudoOrNot -eq 'Y') {
-        plink.exe -no-antispoof -ssh $file_data -l $args[0] -pw $args[1] "echo -e "$args[1]" | sudo -S "$commands""
+        plink.exe -no-antispoof -ssh $file_data[$lineNum] -l $args[0] -pw $args[1] "echo -e "$args[1]" | sudo -S "$commands""
     }else {
-        plink.exe -no-antispoof -ssh $file_data -l $args[0] -pw $args[1] $commands
+        plink.exe -no-antispoof -ssh $file_data[$lineNum] -l $args[0] -pw $args[1] $commands
     }
 
     $line++
